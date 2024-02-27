@@ -7,5 +7,6 @@
   "bracketSpacing": true,
   "useTabs": false,
   "endOfLine": "lf",
-  "semi": true
+  "semi": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
