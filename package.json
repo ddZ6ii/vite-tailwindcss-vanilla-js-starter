@@ -8,9 +8,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --open",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host --open",
+    "build:preview": "vite build && vite preview --host --open",
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "lint:format": "prettier --write . && eslint --fix ."
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
