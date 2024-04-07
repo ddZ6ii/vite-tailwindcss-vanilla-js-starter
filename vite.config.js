@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { ViteMinifyPlugin } from 'vite-plugin-minify';
 
 // Define chrome as default browser for the dev server.
 const opsys = process.platform;
@@ -18,4 +19,11 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+
+  plugins: [
+    // HTML minification
+    ViteMinifyPlugin({
+      removeComments: true,
+    }),
+  ],
 });
