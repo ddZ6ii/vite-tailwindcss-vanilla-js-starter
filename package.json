@@ -1,7 +1,7 @@
 {
   "name": "vite-tailwindcss-vanilla-js-starter",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vite starter for html | tailwindcss | vanilla js project",
   "author": "Denis Dezest <denis.dezest@gmail.com>",
   "repository": "git@github.com:ddZ6ii/vite-tailwindcss-vanilla-js-starter.git",
@@ -17,11 +17,15 @@
     "build:preview": "yarn run build && yarn run preview"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.0.0",
     "autoprefixer": "^10.4.19",
     "eslint": "8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.0.0",
+    "jsonc-eslint-parser": "^2.4.0",
     "path": "^0.12.7",
     "postcss": "^8.4.35",
     "postcss-uncss": "^0.17.0",
