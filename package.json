@@ -1,7 +1,7 @@
 {
   "name": "vite-tailwindcss-vanilla-js-starter",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "vite starter for html | tailwindcss | vanilla js project",
   "author": "Denis Dezest <denis.dezest@gmail.com>",
   "repository": "git@github.com:ddZ6ii/vite-tailwindcss-vanilla-js-starter.git",

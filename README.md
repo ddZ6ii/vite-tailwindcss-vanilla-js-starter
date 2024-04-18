@@ -1,18 +1,18 @@
 # Vite starter - HTML | Tailwind CSS | Vanilla JavaScript
 
-This is a Vite starter for vanilla JavaScript projects with TailwindCSS. It is entended to be used together with `degit` to speed up the workflow of starting a new project from scratch.
+This is a Vite starter for vanilla JavaScript projects with TailwindCSS.
 
-This approach is much quicker than using `git clone`, because you're not downloading the entire git history!
+This starter is entented to be used together with `degit` to speed up the workflow of starting a new project from scratch. This approach is much quicker than using `git clone`, because you're not downloading the entire git history!
 
 ## Getting started
 
-`degit` allows to make copies of git repositories, which is very handy to your project with a template
+`degit` allows to make copies of git repositories which is very handy to scaffold a template and quickly start a project with a clean git history.
 
 ### 1. Create a local copy from a github repo
 
 > **_NOTE:_** you can use `npx` as an alternative to a global installation.
 
-First install [`degit`] globally using your favorite package manager:
+First install [degit](https://github.com/Rich-Harris/degit) globally using your favorite package manager:
 
 ```console
 yarn global add degit
@@ -36,7 +36,7 @@ degit https://github.com/user/repo
 Initialize your project by installing all the required dependencies:
 
 ```console
-yarn install
+yarn
 ```
 
 ### 3. Initialize a local git repository
